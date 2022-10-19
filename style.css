@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f1f5f8;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+main {
+  height: calc(100vh - 3rem);
+  display: grid;
+  place-items: center;
+}
+.container {
+  text-align: center;
+}
+.btn-hero {
+  text-transform: uppercase;
+  background: transparent;
+  letter-spacing: 3px;
+  display: inline-block;
+  font-weight: 700;
+  transition: all 0.3s ease;
+  border: 2px solid black;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 0.75rem 1.25rem;
+}
+
+.btn-hero:hover {
+  background-color: rgba(0, 0, 0, 0.255);
+  color: white;
+}
+h2 {
+  background: black;
+  color: white;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 2.5rem;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+}
+nav {
+  background: white;
+  height: 3rem;
+  display: grid;
+  align-items: center;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.nav-center {
+  width: 90vw;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-center h4 {
+  color: rgb(3, 255, 217);
+  text-transform: uppercase;
+
+  letter-spacing: 3px;
+  height: fit-content;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: large;
+  color: rgb(3, 255, 217);
+}
